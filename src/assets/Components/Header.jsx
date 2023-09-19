@@ -40,7 +40,7 @@ const Header = () => {
         >
           <Link className="text-white">ABOUT</Link>
         </ScrollLink>
-        <Link className="text-white mt-14" onClick={handleDownload}>RESUME</Link>
+        <Link className="text-white mt-14 underline" onClick={handleDownload}>RESUME</Link>
       </div>
 
 

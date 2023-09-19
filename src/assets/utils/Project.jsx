@@ -129,6 +129,7 @@ function Audio({ }) {
             <div className='flex justify-center items-center flex-col w-full'>
                 <p className='font-bold truncate'>Video To Mp3</p>
                 <p className='text-sm font-light text-center '> An online video-to-audio conversion tool using React and Python with Flask and moviepy library. </p>
+                <button className="rounded-md border-2 border-white w-40" onClick={() => window.open('https://github.com/Caleb-Orho/QuizGeneraor/blob/main/src/assets/Components/Home.jsx', '_blank')}>Source Code</button>
             </div>
         </div>
     );
@@ -163,6 +164,7 @@ function Video({ }) {
             <div className='flex justify-center items-center flex-col w-full'>
                 <p className='font-bold truncate'>Youtube Video Downloader</p>
                 <p className='text-sm font-light text-center '> An online video downloader React and Python with Flask and pytube library. </p>
+                <button className="rounded-md border-2 border-white w-40" onClick={() => window.open('https://github.com/Caleb-Orho/QuizGeneraor/blob/main/src/assets/Components/Quiz.jsx', '_blank')}>Source Code</button>
             </div>
         </div>
     );
